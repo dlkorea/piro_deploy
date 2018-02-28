@@ -188,6 +188,7 @@ collate utf8_general_ci 없을시 아이폰 유저가 이모티콘 저장 시도
 
 ## 18. mysql connector install
 
+    sudo apt-get install libmysqlclient-dev
     pip install mysqlclient
 
 
