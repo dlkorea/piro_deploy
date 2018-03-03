@@ -115,6 +115,11 @@ ln -s 로 sites-enabled에 심볼 링크(일종의 바로가기)를 만들어야
 
     sudo ln -s /etc/nginx/sites-available/프로젝트명 /etc/nginx/sites-enabled
 
+추가로 이미 sites-enabled 디렉토리에 만들어져 있는 default 콘픽의 심볼 링크를 삭제하여 위의 설정(프로젝트명 파일)만
+활성화되도록 함.
+
+    sudo rm /etc/nginx/sites-enabled/default
+
 
 ## 11. nginx restart & uwsgi start
 
